@@ -1,0 +1,23 @@
+.Settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.Settings__setting-column:last-child {
+  color: var(--font-grey-color);
+}
+
+.Settings__setting-column .fa-lock {
+  padding-top: 50px;
+}

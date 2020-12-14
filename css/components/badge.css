@@ -1,0 +1,12 @@
+/* 채팅이오면 빨강색 원안에 메시지가 왔다고 표시 */
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
